@@ -1,0 +1,382 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text HLabel 3976 3421 0    50   Input ~ 0
+COUT
+$Comp
+L power:GND #PWR0292
+U 1 1 62A0C241
+P 5476 3731
+F 0 "#PWR0292" H 5476 3481 50  0001 C CNN
+F 1 "GND" H 5481 3558 50  0000 C CNN
+F 2 "" H 5476 3731 50  0001 C CNN
+F 3 "" H 5476 3731 50  0001 C CNN
+	1    5476 3731
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5476 3731 5476 3621
+Wire Wire Line
+	5476 3621 5416 3621
+$Comp
+L Device:R_Small R121
+U 1 1 62A0C24A
+P 7092 3911
+F 0 "R121" H 7151 3957 50  0000 L CNN
+F 1 "15R" H 7151 3866 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 7092 3911 50  0001 C CNN
+F 3 "~" H 7092 3911 50  0001 C CNN
+F 4 "C17480" H 7092 3911 50  0001 C CNN "LCSC"
+	1    7092 3911
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Device:R_Small R119
+U 1 1 62A0C251
+P 6807 3131
+F 0 "R119" H 6866 3177 50  0000 L CNN
+F 1 "15R" H 6866 3086 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 6807 3131 50  0001 C CNN
+F 3 "~" H 6807 3131 50  0001 C CNN
+F 4 "C17480" H 6807 3131 50  0001 C CNN "LCSC"
+	1    6807 3131
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C97
+U 1 1 62A0C258
+P 5586 2721
+F 0 "C97" H 5678 2767 50  0000 L CNN
+F 1 "10n" H 5678 2676 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 5586 2721 50  0001 C CNN
+F 3 "~" H 5586 2721 50  0001 C CNN
+F 4 "C1710" H 5586 2721 50  0001 C CNN "LCSC"
+	1    5586 2721
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C103
+U 1 1 62A0C25F
+P 7422 4131
+F 0 "C103" H 7292 4201 50  0000 L CNN
+F 1 "10n" H 7203 4132 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 7422 4131 50  0001 C CNN
+F 3 "~" H 7422 4131 50  0001 C CNN
+F 4 "C1710" H 7422 4131 50  0001 C CNN "LCSC"
+	1    7422 4131
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R117
+U 1 1 62A0C266
+P 5866 3471
+F 0 "R117" H 5665 3581 50  0000 L CNN
+F 1 "1.5K" H 5646 3441 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric" H 5866 3471 50  0001 C CNN
+F 3 "~" H 5866 3471 50  0001 C CNN
+F 4 "C59092" H 5866 3471 50  0001 C CNN "LCSC"
+	1    5866 3471
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0293
+U 1 1 62A0C26C
+P 3556 3511
+F 0 "#PWR0293" H 3556 3261 50  0001 C CNN
+F 1 "GND" H 3561 3338 50  0000 C CNN
+F 2 "" H 3556 3511 50  0001 C CNN
+F 3 "" H 3556 3511 50  0001 C CNN
+	1    3556 3511
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5416 3321 5866 3321
+Wire Wire Line
+	5866 3321 5866 3371
+$Comp
+L power:GND #PWR0294
+U 1 1 62A0C274
+P 5866 3731
+F 0 "#PWR0294" H 5866 3481 50  0001 C CNN
+F 1 "GND" H 5871 3558 50  0000 C CNN
+F 2 "" H 5866 3731 50  0001 C CNN
+F 3 "" H 5866 3731 50  0001 C CNN
+	1    5866 3731
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5866 3731 5866 3571
+$Comp
+L Device:C_Small C99
+U 1 1 62A0C27C
+P 5906 2721
+F 0 "C99" H 5998 2767 50  0000 L CNN
+F 1 "10u" H 5998 2676 50  0000 L CNN
+F 2 "Capacitor_SMD:C_1206_3216Metric" H 5906 2721 50  0001 C CNN
+F 3 "~" H 5906 2721 50  0001 C CNN
+F 4 "C13585" H 5906 2721 50  0001 C CNN "LCSC"
+	1    5906 2721
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0295
+U 1 1 62A0C282
+P 5586 2853
+F 0 "#PWR0295" H 5586 2603 50  0001 C CNN
+F 1 "GND" H 5591 2680 50  0000 C CNN
+F 2 "" H 5586 2853 50  0001 C CNN
+F 3 "" H 5586 2853 50  0001 C CNN
+	1    5586 2853
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR0296
+U 1 1 62A0C288
+P 5906 2853
+F 0 "#PWR0296" H 5906 2603 50  0001 C CNN
+F 1 "GND" H 5911 2680 50  0000 C CNN
+F 2 "" H 5906 2853 50  0001 C CNN
+F 3 "" H 5906 2853 50  0001 C CNN
+	1    5906 2853
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5416 2921 5476 2921
+Wire Wire Line
+	5476 2921 5476 2591
+Wire Wire Line
+	5476 2591 5586 2591
+Wire Wire Line
+	5586 2591 5586 2621
+Wire Wire Line
+	5906 2621 5906 2591
+Wire Wire Line
+	5906 2591 5796 2591
+Connection ~ 5586 2591
+$Comp
+L power:+12V #PWR0297
+U 1 1 62A0C295
+P 5906 2392
+F 0 "#PWR0297" H 5906 2242 50  0001 C CNN
+F 1 "+12V" H 5921 2565 50  0000 C CNN
+F 2 "" H 5906 2392 50  0001 C CNN
+F 3 "" H 5906 2392 50  0001 C CNN
+	1    5906 2392
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5906 2392 5906 2591
+Connection ~ 5906 2591
+$Comp
+L Device:C_Small C101
+U 1 1 62A0C29E
+P 6326 2685
+F 0 "C101" H 6418 2731 50  0000 L CNN
+F 1 "470nF" H 6418 2640 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric" H 6326 2685 50  0001 C CNN
+F 3 "~" H 6326 2685 50  0001 C CNN
+F 4 "C13967" H 6326 2685 50  0001 C CNN "LCSC"
+	1    6326 2685
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6146 3221 6146 2565
+Wire Wire Line
+	6146 2565 6326 2565
+Wire Wire Line
+	6326 2565 6326 2585
+$Comp
+L power:GND #PWR0298
+U 1 1 62A0C2A7
+P 6326 2805
+F 0 "#PWR0298" H 6326 2555 50  0001 C CNN
+F 1 "GND" H 6467 2730 50  0000 C CNN
+F 2 "" H 6326 2805 50  0001 C CNN
+F 3 "" H 6326 2805 50  0001 C CNN
+	1    6326 2805
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5416 3221 6146 3221
+Text GLabel 3976 3321 0    50   Input ~ 0
+REGS
+Text GLabel 6146 2500 1    50   Input ~ 0
+REGS
+Wire Wire Line
+	6146 2500 6146 2565
+Connection ~ 6146 2565
+Wire Wire Line
+	5416 3121 6086 3121
+Wire Wire Line
+	5416 3421 5579 3421
+Wire Wire Line
+	7422 4031 7422 3911
+Wire Wire Line
+	7422 3911 7192 3911
+$Comp
+L power:GND #PWR0299
+U 1 1 62A0C2B6
+P 7422 4231
+F 0 "#PWR0299" H 7422 3981 50  0001 C CNN
+F 1 "GND" H 7427 4058 50  0000 C CNN
+F 2 "" H 7422 4231 50  0001 C CNN
+F 3 "" H 7422 4231 50  0001 C CNN
+	1    7422 4231
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6086 2981 6086 3121
+Wire Wire Line
+	5579 3421 5579 3661
+Wire Wire Line
+	6807 3031 6807 2981
+Wire Wire Line
+	7552 3911 7422 3911
+Connection ~ 7422 3911
+Wire Wire Line
+	3556 3221 3556 3511
+$Comp
+L Device:Q_PNP_BEC Q25
+U 1 1 62A0C2C3
+P 6360 3325
+F 0 "Q25" H 6543 3324 50  0000 L CNN
+F 1 "Q_PNP_BEC" H 6024 3118 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-23" H 6560 3425 50  0001 C CNN
+F 3 "~" H 6360 3325 50  0001 C CNN
+F 4 "C8326" H 6360 3325 50  0001 C CNN "LCSC"
+	1    6360 3325
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	6807 3231 6807 3325
+Wire Wire Line
+	5579 3661 6260 3661
+Wire Wire Line
+	6260 3525 6260 3661
+Wire Wire Line
+	6560 3325 6807 3325
+Wire Wire Line
+	6086 2981 6260 2981
+Wire Wire Line
+	6260 3125 6260 2981
+Connection ~ 6260 2981
+Wire Wire Line
+	6260 2981 6807 2981
+Wire Wire Line
+	4016 3421 3976 3421
+Wire Wire Line
+	3976 3321 4016 3321
+Wire Wire Line
+	4016 3221 3556 3221
+Wire Wire Line
+	4016 3121 3936 3121
+NoConn ~ 3936 3121
+$Comp
+L Device:Q_PMOS_GDSD Q27
+U 1 1 62A0C2DE
+P 6707 3661
+F 0 "Q27" H 6900 3511 50  0000 L CNN
+F 1 "Q_PMOS_GDSD" H 6901 3586 50  0000 L CNN
+F 2 "Package_TO_SOT_SMD:SOT-223" H 6907 3761 50  0001 C CNN
+F 3 "~" H 6707 3661 50  0001 C CNN
+F 4 "C75283" H 6707 3661 50  0001 C CNN "LCSC"
+	1    6707 3661
+	1    0    0    1   
+$EndComp
+Wire Wire Line
+	6807 3325 6807 3461
+Connection ~ 6807 3325
+Wire Wire Line
+	6507 3661 6260 3661
+Connection ~ 6260 3661
+Wire Wire Line
+	6807 3861 6807 3911
+Wire Wire Line
+	6807 3911 6907 3911
+Wire Wire Line
+	6907 3911 6907 3861
+Wire Wire Line
+	6992 3911 6907 3911
+Connection ~ 6907 3911
+Text HLabel 7552 3911 2    50   Output ~ 0
+4_20mA
+Text Notes 3581 2517 0    50   ~ 0
+VSP: We can add a resistor and an inductor:\n-Damping inductor\n-Resistor to decouple the XTR111 supply from the noise
+Text Notes 2331 3137 0    50   ~ 0
+EF: Can be left unconnected if not used
+Text Notes 2335 3280 0    50   ~ 0
+OD: if not used connect to gnd
+Text Notes 6223 2319 0    50   ~ 0
+REGF, REGS: If the voltage regulator output is not used, \nconnect REGF to REGS loaded with a 2.2nF capacitor.
+Wire Wire Line
+	5586 2821 5586 2853
+Wire Wire Line
+	5906 2821 5906 2853
+Wire Wire Line
+	6326 2805 6326 2785
+Text Notes 7543 3697 0    50   ~ 0
+Remommanded Gate capacitance\nVGS(th) as the TP2510
+Wire Notes Line
+	6181 2949 7522 2949
+Wire Notes Line
+	7522 2949 7522 4499
+Wire Notes Line
+	7522 4499 6177 4499
+Wire Notes Line
+	6177 4499 6177 2948
+Text Notes 7537 3013 0    50   ~ 0
+Current limiter circuit
+Text Notes 7084 3284 0    50   ~ 0
+Limits the\ncurrent to \napp 37mA
+Text Notes 7570 4252 0    50   ~ 0
+Better to be placed \nin front of the resistor
+Text Notes 6193 4296 0    50   ~ 0
+Discharge the gate, limit \nthe steepness of external \ndistortion pulses
+Text Notes 5903 3505 0    50   ~ 0
+1,65K
+$Comp
+L Connector:TestPoint TP?
+U 1 1 6299E378
+P 5796 2057
+AR Path="/5F81412C/6299E378" Ref="TP?"  Part="1" 
+AR Path="/5F8EC72A/6299E378" Ref="TP?"  Part="1" 
+AR Path="/6192BAF0/6299E378" Ref="TP?"  Part="1" 
+AR Path="/6207D13B/6299E378" Ref="TP?"  Part="1" 
+AR Path="/6216F384/62302E25/6299E378" Ref="TP13"  Part="1" 
+AR Path="/6299E378" Ref="TP13"  Part="1" 
+F 0 "TP13" H 5854 2175 50  0000 L CNN
+F 1 "TestPoint" H 5854 2084 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 5996 2057 50  0001 C CNN
+F 3 "~" H 5996 2057 50  0001 C CNN
+	1    5796 2057
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	5796 2057 5796 2591
+Connection ~ 5796 2591
+Wire Wire Line
+	5796 2591 5586 2591
+$Comp
+L XTR111AIDGQR_C26350_JLCPCB:XTR111AIDGQR U1
+U 1 1 62B60E97
+P 4716 3321
+F 0 "U1" H 4716 3991 50  0000 C CNN
+F 1 "XTR111AIDGQR" H 4716 3900 50  0000 C CNN
+F 2 "Footprints:XTR111AIDGQR_C26350_MSOP-10" H 4716 3321 50  0001 L BNN
+F 3 "" H 4716 3321 50  0001 L BNN
+	1    4716 3321
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

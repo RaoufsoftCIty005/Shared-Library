@@ -1,0 +1,20 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 282837-2
+#
+DEF 282837-2 P 0 40 Y Y 1 L N
+F0 "P" -100 100 50 H V L BNN
+F1 "282837-2" -200 -300 50 H V L BNN
+F2 "TE_282837-2" 0 0 50 H I L BNN
+F3 "" 0 0 50 H I L BNN
+F4 "282837-2" 0 0 50 H I L BNN "Comment"
+F5 "Compliant with Exemptions" 0 0 50 H I L BNN "EU_RoHS_Compliance"
+DRAW
+S -100 -200 100 100 0 0 10 f
+X + + -300 0 200 R 40 40 0 0 P
+X - - -300 -100 200 R 40 40 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

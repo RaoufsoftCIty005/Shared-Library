@@ -1,0 +1,238 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L AMS1086CD-3.3_C14241_JLCPCB:AMS1086CD-3.3 U?
+U 1 1 61A1E062
+P 4258 3716
+AR Path="/618E030C/61A1E062" Ref="U?"  Part="1" 
+AR Path="/6194411C/61A1E062" Ref="U8"  Part="1" 
+AR Path="/61B1B6B5/61A1E062" Ref="U8"  Part="1" 
+AR Path="/61A1E062" Ref="U8"  Part="1" 
+F 0 "U8" H 5258 4103 60  0000 C CNN
+F 1 "AMS1086CD-3.3" H 5258 3997 60  0000 C CNN
+F 2 "Package_TO_SOT_SMD:TO-252-2" H 5258 3956 60  0001 C CNN
+F 3 "" H 4258 3716 60  0000 C CNN
+F 4 "C14241" H 4258 3716 50  0001 C CNN "LCSC"
+	1    4258 3716
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61A35D14
+P 4080 4083
+AR Path="/61A35D14" Ref="#PWR?"  Part="1" 
+AR Path="/5FA16FAE/61A35D14" Ref="#PWR?"  Part="1" 
+AR Path="/5FE24E79/61A35D14" Ref="#PWR?"  Part="1" 
+AR Path="/61342DAE/61A35D14" Ref="#PWR?"  Part="1" 
+AR Path="/6194411C/61A35D14" Ref="#PWR0134"  Part="1" 
+AR Path="/61B1B6B5/61A35D14" Ref="#PWR0134"  Part="1" 
+F 0 "#PWR0134" H 4080 3833 50  0001 C CNN
+F 1 "GND" H 4085 3910 50  0000 C CNN
+F 2 "" H 4080 4083 50  0001 C CNN
+F 3 "" H 4080 4083 50  0001 C CNN
+	1    4080 4083
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4080 4083 4080 3716
+Wire Wire Line
+	4080 3716 4258 3716
+Wire Wire Line
+	6258 3816 6393 3816
+Wire Wire Line
+	6393 3816 6393 3880
+Wire Wire Line
+	6816 3881 6816 3716
+Wire Wire Line
+	6816 3716 6258 3716
+Wire Wire Line
+	7256 3881 7256 3716
+Wire Wire Line
+	7256 3716 6816 3716
+Connection ~ 6816 3716
+$Comp
+L power:GND #PWR?
+U 1 1 61A7047D
+P 6393 4256
+AR Path="/61A7047D" Ref="#PWR?"  Part="1" 
+AR Path="/5FA16FAE/61A7047D" Ref="#PWR?"  Part="1" 
+AR Path="/5FE24E79/61A7047D" Ref="#PWR?"  Part="1" 
+AR Path="/61342DAE/61A7047D" Ref="#PWR?"  Part="1" 
+AR Path="/6194411C/61A7047D" Ref="#PWR0138"  Part="1" 
+AR Path="/61B1B6B5/61A7047D" Ref="#PWR0138"  Part="1" 
+F 0 "#PWR0138" H 6393 4006 50  0001 C CNN
+F 1 "GND" H 6398 4083 50  0000 C CNN
+F 2 "" H 6393 4256 50  0001 C CNN
+F 3 "" H 6393 4256 50  0001 C CNN
+	1    6393 4256
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61A708D0
+P 6816 4257
+AR Path="/61A708D0" Ref="#PWR?"  Part="1" 
+AR Path="/5FA16FAE/61A708D0" Ref="#PWR?"  Part="1" 
+AR Path="/5FE24E79/61A708D0" Ref="#PWR?"  Part="1" 
+AR Path="/61342DAE/61A708D0" Ref="#PWR?"  Part="1" 
+AR Path="/6194411C/61A708D0" Ref="#PWR0139"  Part="1" 
+AR Path="/61B1B6B5/61A708D0" Ref="#PWR0139"  Part="1" 
+F 0 "#PWR0139" H 6816 4007 50  0001 C CNN
+F 1 "GND" H 6821 4084 50  0000 C CNN
+F 2 "" H 6816 4257 50  0001 C CNN
+F 3 "" H 6816 4257 50  0001 C CNN
+	1    6816 4257
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 61A70E87
+P 7256 4257
+AR Path="/61A70E87" Ref="#PWR?"  Part="1" 
+AR Path="/5FA16FAE/61A70E87" Ref="#PWR?"  Part="1" 
+AR Path="/5FE24E79/61A70E87" Ref="#PWR?"  Part="1" 
+AR Path="/61342DAE/61A70E87" Ref="#PWR?"  Part="1" 
+AR Path="/6194411C/61A70E87" Ref="#PWR0142"  Part="1" 
+AR Path="/61B1B6B5/61A70E87" Ref="#PWR0142"  Part="1" 
+F 0 "#PWR0142" H 7256 4007 50  0001 C CNN
+F 1 "GND" H 7261 4084 50  0000 C CNN
+F 2 "" H 7256 4257 50  0001 C CNN
+F 3 "" H 7256 4257 50  0001 C CNN
+	1    7256 4257
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6393 4180 6393 4256
+Wire Wire Line
+	6816 4257 6816 4181
+Wire Wire Line
+	7256 4257 7256 4181
+$Comp
+L power:+5V #PWR0141
+U 1 1 61A78C7F
+P 7256 3666
+F 0 "#PWR0141" H 7256 3516 50  0001 C CNN
+F 1 "+5V" H 7271 3839 50  0000 C CNN
+F 2 "" H 7256 3666 50  0001 C CNN
+F 3 "" H 7256 3666 50  0001 C CNN
+	1    7256 3666
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7256 3666 7256 3716
+Wire Wire Line
+	7256 3716 7255 3716
+Connection ~ 7256 3716
+$Comp
+L power:+3.3V #PWR0137
+U 1 1 61A7D3BA
+P 6393 3607
+F 0 "#PWR0137" H 6393 3457 50  0001 C CNN
+F 1 "+3.3V" H 6395 3771 50  0000 C CNN
+F 2 "" H 6393 3607 50  0001 C CNN
+F 3 "" H 6393 3607 50  0001 C CNN
+	1    6393 3607
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6393 3607 6393 3816
+Connection ~ 6393 3816
+$Comp
+L Connector:TestPoint 3V?
+U 1 1 61A80584
+P 6668 3664
+AR Path="/61A80584" Ref="3V?"  Part="1" 
+AR Path="/5FA16FAE/61A80584" Ref="3V?"  Part="1" 
+AR Path="/5FE24E79/61A80584" Ref="3V?"  Part="1" 
+AR Path="/60F15E0F/61A80584" Ref="3V?"  Part="1" 
+AR Path="/61342DAE/61A80584" Ref="3V?"  Part="1" 
+AR Path="/6194411C/61A80584" Ref="3V3"  Part="1" 
+AR Path="/61B1B6B5/61A80584" Ref="3V3"  Part="1" 
+F 0 "3V3" H 6883 3781 50  0000 R CNN
+F 1 "Test point" H 7044 3869 50  0000 R CNN
+F 2 "TestPoint:TestPoint_Pad_D1.5mm" H 6868 3664 50  0001 C CNN
+F 3 "~" H 6868 3664 50  0001 C CNN
+	1    6668 3664
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6668 3664 6668 3816
+Wire Wire Line
+	6668 3816 6393 3816
+$Comp
+L Device:C C44
+U 1 1 61A8FB48
+P 6816 4031
+AR Path="/61A8FB48" Ref="C44"  Part="1" 
+AR Path="/60288B87/61A8FB48" Ref="C?"  Part="1" 
+AR Path="/5F990588/61A8FB48" Ref="C?"  Part="1" 
+AR Path="/5FA01DD6/61A8FB48" Ref="C?"  Part="1" 
+AR Path="/5FA17323/61A8FB48" Ref="C?"  Part="1" 
+AR Path="/6007F25B/61A8FB48" Ref="C?"  Part="1" 
+AR Path="/6065E417/61A8FB48" Ref="C?"  Part="1" 
+AR Path="/60CBEDBC/61A8FB48" Ref="C?"  Part="1" 
+AR Path="/60ECA99A/61A8FB48" Ref="C?"  Part="1" 
+AR Path="/6138AA7D/61A8FB48" Ref="C?"  Part="1" 
+AR Path="/6126A5F1/61A8FB48" Ref="C?"  Part="1" 
+AR Path="/6169A63D/61A8FB48" Ref="C?"  Part="1" 
+AR Path="/618DD65F/61A8FB48" Ref="C?"  Part="1" 
+AR Path="/6194411C/61A8FB48" Ref="C45"  Part="1" 
+AR Path="/61B1B6B5/61A8FB48" Ref="C44"  Part="1" 
+F 0 "C44" H 6931 4077 50  0000 L CNN
+F 1 "1u" H 6931 3986 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 6854 3881 50  0001 C CNN
+F 3 "~" H 6816 4031 50  0001 C CNN
+F 4 "C15849" H 6816 4031 50  0001 C CNN "LCSC"
+	1    6816 4031
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	3790 3133 3790 4701
+Wire Notes Line
+	3790 4701 7678 4701
+Wire Notes Line
+	7678 4701 7678 3132
+Wire Notes Line
+	7678 3132 3792 3132
+Text Notes 4038 3081 0    129  ~ 0
+5V to 3.3V\n
+Text Notes 4600 4370 0    50   ~ 0
+used in Flex com NL\n
+$Comp
+L Device:CP1 C45
+U 1 1 61A54ED8
+P 7256 4031
+F 0 "C45" H 7371 4077 50  0000 L CNN
+F 1 "10uF" H 7371 3986 50  0000 L CNN
+F 2 "Footprints:TAJA106K016RNJ_C7171_CASE-A_3216" H 7256 4031 50  0001 C CNN
+F 3 "~" H 7256 4031 50  0001 C CNN
+F 4 "C7171" H 7256 4031 50  0001 C CNN "LCSC"
+	1    7256 4031
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1 C43
+U 1 1 61A552D5
+P 6393 4030
+F 0 "C43" H 6508 4076 50  0000 L CNN
+F 1 "10uF" H 6508 3985 50  0000 L CNN
+F 2 "Footprints:TAJA106K016RNJ_C7171_CASE-A_3216" H 6393 4030 50  0001 C CNN
+F 3 "~" H 6393 4030 50  0001 C CNN
+F 4 "C7171" H 6393 4030 50  0001 C CNN "LCSC"
+	1    6393 4030
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

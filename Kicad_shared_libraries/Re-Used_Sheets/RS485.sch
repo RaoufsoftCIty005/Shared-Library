@@ -1,0 +1,385 @@
+EESchema Schematic File Version 4
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 4 11
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+Text Notes 2670 3095 0    50   ~ 0
+check the connection with wipy\n
+Text Notes 4750 4600 0    50   ~ 0
+RS485 CIRCUIT
+$Comp
+L power:GND #PWR?
+U 1 1 61707D32
+P 6250 3050
+AR Path="/61707D32" Ref="#PWR?"  Part="1" 
+AR Path="/602D7F95/61707D32" Ref="#PWR?"  Part="1" 
+AR Path="/5F83079E/61707D32" Ref="#PWR?"  Part="1" 
+AR Path="/6076D342/61707D32" Ref="#PWR?"  Part="1" 
+AR Path="/6169A481/61707D32" Ref="#PWR?"  Part="1" 
+AR Path="/618E030C/61707D32" Ref="#PWR035"  Part="1" 
+F 0 "#PWR035" H 6250 2800 50  0001 C CNN
+F 1 "GND" H 6255 2877 50  0000 C CNN
+F 2 "" H 6250 3050 50  0001 C CNN
+F 3 "" H 6250 3050 50  0001 C CNN
+	1    6250 3050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GND #PWR?
+U 1 1 5FA4B86D
+P 4700 4250
+AR Path="/5FA4B86D" Ref="#PWR?"  Part="1" 
+AR Path="/602D7F95/5FA4B86D" Ref="#PWR?"  Part="1" 
+AR Path="/5F83079E/5FA4B86D" Ref="#PWR?"  Part="1" 
+AR Path="/6076D342/5FA4B86D" Ref="#PWR?"  Part="1" 
+AR Path="/6169A481/5FA4B86D" Ref="#PWR?"  Part="1" 
+AR Path="/618E030C/5FA4B86D" Ref="#PWR034"  Part="1" 
+F 0 "#PWR034" H 4700 4000 50  0001 C CNN
+F 1 "GND" H 4705 4077 50  0000 C CNN
+F 2 "" H 4700 4250 50  0001 C CNN
+F 3 "" H 4700 4250 50  0001 C CNN
+	1    4700 4250
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 5FA4B86E
+P 4700 2700
+AR Path="/5FA4B86E" Ref="#PWR?"  Part="1" 
+AR Path="/602D7F95/5FA4B86E" Ref="#PWR?"  Part="1" 
+AR Path="/5F83079E/5FA4B86E" Ref="#PWR?"  Part="1" 
+AR Path="/6076D342/5FA4B86E" Ref="#PWR?"  Part="1" 
+AR Path="/6169A481/5FA4B86E" Ref="#PWR?"  Part="1" 
+AR Path="/618E030C/5FA4B86E" Ref="#PWR033"  Part="1" 
+F 0 "#PWR033" H 4700 2550 50  0001 C CNN
+F 1 "+3V3" H 4715 2873 50  0000 C CNN
+F 2 "" H 4700 2700 50  0001 C CNN
+F 3 "" H 4700 2700 50  0001 C CNN
+	1    4700 2700
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C C?
+U 1 1 602D9A93
+P 5450 2800
+AR Path="/602D9A93" Ref="C?"  Part="1" 
+AR Path="/602D7F95/602D9A93" Ref="C?"  Part="1" 
+AR Path="/5F83079E/602D9A93" Ref="C?"  Part="1" 
+AR Path="/6076D342/602D9A93" Ref="C?"  Part="1" 
+AR Path="/6169A481/602D9A93" Ref="C?"  Part="1" 
+AR Path="/618E030C/602D9A93" Ref="C7"  Part="1" 
+F 0 "C7" V 5250 2800 50  0000 C CNN
+F 1 "0.1uF" V 5600 2800 50  0000 C CNN
+F 2 "Capacitor_SMD:C_0603_1608Metric" H 5488 2650 50  0001 C CNN
+F 3 "~" H 5450 2800 50  0001 C CNN
+F 4 "C14663" V 5450 2800 50  0001 C CNN "LCSC"
+	1    5450 2800
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	5300 2800 4700 2800
+$Comp
+L Device:R R?
+U 1 1 61707D37
+P 5900 4000
+AR Path="/61707D37" Ref="R?"  Part="1" 
+AR Path="/602D7F95/61707D37" Ref="R?"  Part="1" 
+AR Path="/5F83079E/61707D37" Ref="R?"  Part="1" 
+AR Path="/6076D342/61707D37" Ref="R?"  Part="1" 
+AR Path="/6169A481/61707D37" Ref="R?"  Part="1" 
+AR Path="/618E030C/61707D37" Ref="R17"  Part="1" 
+F 0 "R17" H 5970 4046 50  0000 L CNN
+F 1 "10K" H 5970 3955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5830 4000 50  0001 C CNN
+F 3 "~" H 5900 4000 50  0001 C CNN
+F 4 "C25804" H 5900 4000 50  0001 C CNN "LCSC"
+	1    5900 4000
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:+3V3 #PWR?
+U 1 1 602D9AA1
+P 6300 4300
+AR Path="/602D9AA1" Ref="#PWR?"  Part="1" 
+AR Path="/602D7F95/602D9AA1" Ref="#PWR?"  Part="1" 
+AR Path="/5F83079E/602D9AA1" Ref="#PWR?"  Part="1" 
+AR Path="/6076D342/602D9AA1" Ref="#PWR?"  Part="1" 
+AR Path="/6169A481/602D9AA1" Ref="#PWR?"  Part="1" 
+AR Path="/618E030C/602D9AA1" Ref="#PWR036"  Part="1" 
+F 0 "#PWR036" H 6300 4150 50  0001 C CNN
+F 1 "+3V3" H 6315 4473 50  0000 C CNN
+F 2 "" H 6300 4300 50  0001 C CNN
+F 3 "" H 6300 4300 50  0001 C CNN
+	1    6300 4300
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6300 4300 5900 4300
+Wire Wire Line
+	5900 4300 5900 4150
+Wire Wire Line
+	5900 3850 5900 3800
+$Comp
+L Device:R R?
+U 1 1 61707D31
+P 5900 3050
+AR Path="/61707D31" Ref="R?"  Part="1" 
+AR Path="/602D7F95/61707D31" Ref="R?"  Part="1" 
+AR Path="/5F83079E/61707D31" Ref="R?"  Part="1" 
+AR Path="/6076D342/61707D31" Ref="R?"  Part="1" 
+AR Path="/6169A481/61707D31" Ref="R?"  Part="1" 
+AR Path="/618E030C/61707D31" Ref="R15"  Part="1" 
+F 0 "R15" V 5800 3200 50  0000 C CNN
+F 1 "10K" V 5784 3050 50  0000 C CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" V 5830 3050 50  0001 C CNN
+F 3 "~" H 5900 3050 50  0001 C CNN
+F 4 "C25804" V 5900 3050 50  0001 C CNN "LCSC"
+	1    5900 3050
+	-1   0    0    1   
+$EndComp
+Connection ~ 5900 3400
+Wire Wire Line
+	6050 3800 6050 3500
+Connection ~ 5900 3800
+Wire Wire Line
+	4700 2700 4700 2800
+Wire Wire Line
+	4700 2800 4700 2870
+Connection ~ 4700 2800
+Wire Wire Line
+	6250 2800 6250 3050
+Wire Wire Line
+	5600 2800 5900 2800
+Wire Wire Line
+	5900 3200 5900 3400
+Wire Wire Line
+	5900 2900 5900 2800
+Connection ~ 5900 2800
+Wire Wire Line
+	5900 2800 6250 2800
+Wire Wire Line
+	5900 3800 6050 3800
+Wire Wire Line
+	6600 3400 5900 3400
+Wire Notes Line
+	4200 4500 4200 2450
+Wire Wire Line
+	3500 3550 4139 3550
+Wire Wire Line
+	3500 3550 3500 3600
+Wire Wire Line
+	6050 3500 6600 3500
+Wire Notes Line
+	4200 2450 6450 2450
+Wire Notes Line
+	4200 4500 6450 4500
+Wire Wire Line
+	3250 3600 3500 3600
+Connection ~ 3500 3600
+Wire Wire Line
+	3500 3600 3500 3650
+$Comp
+L Device:R_Small R16
+U 1 1 61707D30
+P 5900 3600
+F 0 "R16" H 5959 3646 50  0000 L CNN
+F 1 "120" H 5959 3555 50  0000 L CNN
+F 2 "Resistor_SMD:R_0603_1608Metric" H 5900 3600 50  0001 C CNN
+F 3 "~" H 5900 3600 50  0001 C CNN
+F 4 "C22787" H 5900 3600 50  0001 C CNN "LCSC"
+	1    5900 3600
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	6450 2450 6450 4500
+Wire Wire Line
+	5900 3500 5900 3400
+Wire Wire Line
+	5900 3700 5900 3800
+$Comp
+L Connector:TestPoint TP?
+U 1 1 61707D35
+P 4350 2770
+AR Path="/5F81412C/61707D35" Ref="TP?"  Part="1" 
+AR Path="/5F83079E/61707D35" Ref="TP?"  Part="1" 
+AR Path="/6076D342/61707D35" Ref="TP?"  Part="1" 
+AR Path="/6169A481/61707D35" Ref="TP?"  Part="1" 
+AR Path="/618E030C/61707D35" Ref="TP1"  Part="1" 
+F 0 "TP1" H 4408 2888 50  0000 L CNN
+F 1 "TestPoint" H 4408 2797 50  0000 L CNN
+F 2 "TestPoint:TestPoint_Pad_D1.0mm" H 4550 2770 50  0001 C CNN
+F 3 "~" H 4550 2770 50  0001 C CNN
+	1    4350 2770
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4350 2770 4350 2870
+Wire Wire Line
+	4350 2870 4700 2870
+Connection ~ 4700 2870
+$Comp
+L Connector_Generic:Conn_01x09 J4
+U 1 1 6087256D
+P 7860 3846
+F 0 "J4" H 7940 3888 50  0000 L CNN
+F 1 "Conn_01x09" H 7940 3797 50  0000 L CNN
+F 2 "Footprints:DB127V-5.0-9P-GN-S_C430627_CONN-TH" H 7860 3846 50  0001 C CNN
+F 3 "~" H 7860 3846 50  0001 C CNN
+F 4 "C430627" H 7860 3846 50  0001 C CNN "LCSC"
+	1    7860 3846
+	1    0    0    -1  
+$EndComp
+Text GLabel 7591 3446 0    50   Input ~ 0
+RS485+
+Wire Wire Line
+	7591 3446 7660 3446
+Text GLabel 7591 3546 0    50   Input ~ 0
+RS485-
+Wire Wire Line
+	7591 3546 7660 3546
+$Comp
+L power:GND #PWR?
+U 1 1 60874003
+P 7535 3646
+AR Path="/60874003" Ref="#PWR?"  Part="1" 
+AR Path="/602D7F95/60874003" Ref="#PWR?"  Part="1" 
+AR Path="/5F83079E/60874003" Ref="#PWR?"  Part="1" 
+AR Path="/6076D342/60874003" Ref="#PWR?"  Part="1" 
+AR Path="/6169A481/60874003" Ref="#PWR?"  Part="1" 
+AR Path="/618E030C/60874003" Ref="#PWR037"  Part="1" 
+F 0 "#PWR037" H 7535 3396 50  0001 C CNN
+F 1 "GND" H 7540 3473 50  0000 C CNN
+F 2 "" H 7535 3646 50  0001 C CNN
+F 3 "" H 7535 3646 50  0001 C CNN
+	1    7535 3646
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7660 3646 7535 3646
+Text GLabel 7591 3746 0    50   Input ~ 0
+RS485+
+Wire Wire Line
+	7591 3746 7660 3746
+Text GLabel 7591 3846 0    50   Input ~ 0
+RS485-
+Wire Wire Line
+	7591 3846 7660 3846
+$Comp
+L power:GND #PWR?
+U 1 1 608757A7
+P 7535 3946
+AR Path="/608757A7" Ref="#PWR?"  Part="1" 
+AR Path="/602D7F95/608757A7" Ref="#PWR?"  Part="1" 
+AR Path="/5F83079E/608757A7" Ref="#PWR?"  Part="1" 
+AR Path="/6076D342/608757A7" Ref="#PWR?"  Part="1" 
+AR Path="/6169A481/608757A7" Ref="#PWR?"  Part="1" 
+AR Path="/618E030C/608757A7" Ref="#PWR038"  Part="1" 
+F 0 "#PWR038" H 7535 3696 50  0001 C CNN
+F 1 "GND" H 7540 3773 50  0000 C CNN
+F 2 "" H 7535 3946 50  0001 C CNN
+F 3 "" H 7535 3946 50  0001 C CNN
+	1    7535 3946
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7660 3946 7535 3946
+Text GLabel 7591 4046 0    50   Input ~ 0
+RS485+
+Wire Wire Line
+	7591 4046 7660 4046
+Text GLabel 7591 4146 0    50   Input ~ 0
+RS485-
+Wire Wire Line
+	7591 4146 7660 4146
+$Comp
+L power:GND #PWR?
+U 1 1 6087655B
+P 7535 4246
+AR Path="/6087655B" Ref="#PWR?"  Part="1" 
+AR Path="/602D7F95/6087655B" Ref="#PWR?"  Part="1" 
+AR Path="/5F83079E/6087655B" Ref="#PWR?"  Part="1" 
+AR Path="/6076D342/6087655B" Ref="#PWR?"  Part="1" 
+AR Path="/6169A481/6087655B" Ref="#PWR?"  Part="1" 
+AR Path="/618E030C/6087655B" Ref="#PWR039"  Part="1" 
+F 0 "#PWR039" H 7535 3996 50  0001 C CNN
+F 1 "GND" H 7540 4073 50  0000 C CNN
+F 2 "" H 7535 4246 50  0001 C CNN
+F 3 "" H 7535 4246 50  0001 C CNN
+	1    7535 4246
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	7660 4246 7535 4246
+$Comp
+L Interface_UART:SP3485EN U3
+U 1 1 60D46E62
+P 4700 3595
+F 0 "U3" H 4700 4176 50  0000 C CNN
+F 1 "SP3485EN" H 4700 4085 50  0000 C CNN
+F 2 "Package_SO:SOIC-8_3.9x4.9mm_P1.27mm" H 5750 3245 50  0001 C CIN
+F 3 "http://www.icbase.com/pdf/SPX/SPX00480106.pdf" H 4700 3595 50  0001 C CNN
+F 4 "C8963" H 4700 3595 50  0001 C CNN "LCSC"
+	1    4700 3595
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4700 2870 4700 3195
+Wire Wire Line
+	4700 3995 4700 4250
+Wire Wire Line
+	4300 3395 4092 3395
+Wire Wire Line
+	4092 3395 4092 3450
+Wire Wire Line
+	4092 3450 3500 3450
+Wire Wire Line
+	4300 3495 4139 3495
+Wire Wire Line
+	4139 3495 4139 3550
+Wire Wire Line
+	4300 3695 4139 3695
+Wire Wire Line
+	4139 3695 4139 3650
+Wire Wire Line
+	4139 3650 3500 3650
+Wire Wire Line
+	4300 3795 4091 3795
+Wire Wire Line
+	4091 3795 4091 3750
+Wire Wire Line
+	4091 3750 3500 3750
+Text GLabel 6600 3500 2    50   Input ~ 0
+RS485+
+Text GLabel 6600 3400 2    50   Input ~ 0
+RS485-
+Wire Wire Line
+	5900 3800 5482 3800
+Wire Wire Line
+	5482 3495 5100 3495
+Wire Wire Line
+	5482 3495 5482 3800
+Wire Wire Line
+	5900 3400 5600 3400
+Wire Wire Line
+	5600 3400 5600 3695
+Wire Wire Line
+	5600 3695 5100 3695
+Text GLabel 3500 3450 0    50   Input ~ 0
+RS485_RX
+Text GLabel 3500 3750 0    50   Input ~ 0
+RS485_TX
+Text GLabel 3250 3600 0    50   Input ~ 0
+RS485_DE
+Text Notes 7691 3311 0    50   ~ 0
+standard
+$EndSCHEMATC
